@@ -1,0 +1,14 @@
+C:\Users\lumal\OneDrive\Escritorio\.net\ICBFapp\ICBFapp\obj\Debug\net8.0\ICBFapp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\lumal\OneDrive\Escritorio\.net\ICBFapp\ICBFapp\obj\Debug\net8.0\ICBFapp.AssemblyInfoInputs.cache
+C:\Users\lumal\OneDrive\Escritorio\.net\ICBFapp\ICBFapp\obj\Debug\net8.0\ICBFapp.AssemblyInfo.cs
+C:\Users\lumal\OneDrive\Escritorio\.net\ICBFapp\ICBFapp\obj\Debug\net8.0\ICBFapp.csproj.CoreCompileInputs.cache
+C:\Users\lumal\OneDrive\Escritorio\.net\ICBFapp\ICBFapp\obj\Debug\net8.0\ICBFapp.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\lumal\OneDrive\Escritorio\.net\ICBFapp\ICBFapp\obj\Debug\net8.0\ICBFapp.RazorAssemblyInfo.cache
+C:\Users\lumal\OneDrive\Escritorio\.net\ICBFapp\ICBFapp\obj\Debug\net8.0\ICBFapp.RazorAssemblyInfo.cs
+C:\Users\lumal\OneDrive\Escritorio\ICBFapp\ICBFapp\obj\Debug\net8.0\ICBFapp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\lumal\OneDrive\Escritorio\ICBFapp\ICBFapp\obj\Debug\net8.0\ICBFapp.AssemblyInfoInputs.cache
+C:\Users\lumal\OneDrive\Escritorio\ICBFapp\ICBFapp\obj\Debug\net8.0\ICBFapp.AssemblyInfo.cs
+C:\Users\lumal\OneDrive\Escritorio\ICBFapp\ICBFapp\obj\Debug\net8.0\ICBFapp.csproj.CoreCompileInputs.cache
+C:\Users\lumal\OneDrive\Escritorio\ICBFapp\ICBFapp\obj\Debug\net8.0\ICBFapp.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\lumal\OneDrive\Escritorio\ICBFapp\ICBFapp\obj\Debug\net8.0\ICBFapp.RazorAssemblyInfo.cache
+C:\Users\lumal\OneDrive\Escritorio\ICBFapp\ICBFapp\obj\Debug\net8.0\ICBFapp.RazorAssemblyInfo.cs

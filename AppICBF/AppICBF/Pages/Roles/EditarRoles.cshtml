@@ -1,0 +1,29 @@
+﻿@page
+@model AppICBF.Pages.Roles.EditarRolesModel
+@{
+}
+<h2>Editar Rol</h2>
+
+@if (!string.IsNullOrEmpty(Model.errorMessage))
+{
+    <div class="alert alert-danger" role="alert">
+        @Model.errorMessage
+    </div>
+}
+
+@if (!string.IsNullOrEmpty(Model.successMessage))
+{
+    <div class="alert alert-success" role="alert">
+        @Model.successMessage
+    </div>
+}
+
+<form method="post">
+    <input type="hidden" name="rolID" value="@Model.rolInfo.Rol_ID" />
+    <div class="form-group">
+        <label for="nombreRol">Nombre Rol</label>
+        <input type="text" class="form-control" id="nombreRol" name="nombreRol" value="@Model.rolInfo.Nombre_Rol" />
+    </div>
+    <button type="submit" class="btn btn-primary">Actualizar Rol</button>
+    <a asp-page="/Roles/IndexRoles" class="btn btn-secondary">Volver</a>
+</form>

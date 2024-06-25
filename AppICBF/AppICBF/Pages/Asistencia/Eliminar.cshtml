@@ -1,0 +1,14 @@
+﻿@page
+@model AppICBF.Pages.Asistencia.EliminarModel
+@{
+    ViewData["Title"] = "Eliminar Asistencia";
+}
+<h2>Eliminar asistencia</h2>
+
+<p>¿Estás seguro que deseas eliminar esta asistencia?</p>
+
+<form method="post">
+    <input type="hidden" asp-for="Identificacion_Nino" />
+    <button type="submit" class="btn btn-danger">Eliminar</button>
+    <a asp-page="/Asistencia/IndexAsistencia" class="btn btn-secondary">Cancelar</a>
+</form>

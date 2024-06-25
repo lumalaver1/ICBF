@@ -1,0 +1,70 @@
+﻿@page
+@model AppICBF.Pages.Nino.CrearNinoModel
+@{
+    ViewData["Title"] = "Crear Niño";
+}
+
+<br />
+<h2>Agregar Nuevo Niño</h2>
+
+@if (!string.IsNullOrEmpty(Model.errorMessage))
+{
+    <div class="alert alert-danger" role="alert">
+        @Model.errorMessage
+    </div>
+}
+
+@if (!string.IsNullOrEmpty(Model.successMessage))
+{
+    <div class="alert alert-success" role="alert">
+        @Model.successMessage
+    </div>
+}
+
+<form method="post">
+    <div class="form-group">
+        <label for="registroNIUP">Registro NIUP</label>
+        <input type="number" class="form-control" id="Registro_NIUP" name="Registro_NIUP" value="@Model.ninoInfo.Registro_NIUP">
+    </div>
+    <div class="form-group">
+        <label for="nombre">Nombre</label>
+        <input type="text" class="form-control" id="nombre" name="nombre" value="@Model.ninoInfo.Nombre">
+    </div>
+    <div class="form-group">
+        <label for="fechaNacimiento">Fecha de Nacimiento</label>
+        <input type="date" class="form-control" id="fechaNacimiento" name="fechaNacimiento" value="@Model.ninoInfo.Fecha_Nacimiento.ToString("yyyy-MM-dd")">
+    </div>
+    <div class="form-group">
+        <label for="tipoSangre">Tipo de Sangre</label>
+        <input type="text" class="form-control" id="tipoSangre" name="tipoSangre" value="@Model.ninoInfo.Tipo_Sangre">
+    </div>
+    <div class="form-group">
+        <label for="ciudadNacimiento">Ciudad de Nacimiento</label>
+        <input type="text" class="form-control" id="ciudadNacimiento" name="ciudadNacimiento" value="@Model.ninoInfo.Ciudad_Nacimiento">
+    </div>
+    <div class="form-group">
+        <label for="identificacionAcudiente">Identificación Acudiente</label>
+        <input type="number" class="form-control" id="identificacionAcudiente" name="identificacionAcudiente" value="@Model.ninoInfo.Identificacion_Acudiente">
+    </div>
+    <div class="form-group">
+        <label for="telefono">Teléfono</label>
+        <input type="text" class="form-control" id="telefono" name="telefono" value="@Model.ninoInfo.Telefono">
+    </div>
+    <div class="form-group">
+        <label for="direccion">Dirección</label>
+        <input type="text" class="form-control" id="direccion" name="direccion" value="@Model.ninoInfo.Direccion">
+    </div>
+    <div class="form-group">
+        <label for="eps">EPS</label>
+        <input type="text" class="form-control" id="eps" name="eps" value="@Model.ninoInfo.EPS">
+    </div>
+
+
+    <div class="form-group">
+        <label for="identificadorJardin">Identificador Jardín</label>
+        <input type="number" class="form-control" id="identificadorJardin" name="identificadorJardin" value="@Model.ninoInfo.Identificador_Jardin">
+    </div>
+    <button type="submit" class="btn btn-primary">Agregar Niño</button>
+    <a class="btn btn-secondary" href="/Nino/IndexNinos">Volver</a>
+</form>
+

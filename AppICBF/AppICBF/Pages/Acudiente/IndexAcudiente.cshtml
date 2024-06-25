@@ -1,0 +1,38 @@
+﻿@page
+@model AppICBF.Pages.Acudiente.IndexAcudienteModel
+@{
+    ViewData["Title"] = "Lista Acudiente";
+}
+<br />
+<h2>Lista de Acudientes</h2>
+<a class="btn btn-primary btn-sm" href="/Acudiente/CrearAcudiente">Nuevo Acudiente</a>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Cedula</th>
+            <th>Nombre</th>
+            <th>Telefono</th>
+            <th>Celular</th>
+            <th>Direccion</th>
+            <th>Correo</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var acudiente in Model.listAcudiente)
+        {
+            <tr>
+                <td>@acudiente.Cedula</td>
+                <td>@acudiente.Nombre</td>
+                <td>@acudiente.Telefono</td>
+                <td>@acudiente.Celular</td>
+                <td>@acudiente.Direccion</td>
+                <td>@acudiente.Correo</td>
+           <td>
+                    <a class="btn btn-primary btn-sm" asp-page="/Acudiente/EditarAcudiente" asp-route-Registro_NIUP="@acudiente.Cedula">Editar</a>
+                    <a class="btn btn-danger btn-sm" asp-page="/Acudiente/EliminarAcudiente" asp-route-Registro_NIUP="@acudiente.Cedula">Eliminar</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.35013.160
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AppICBF", "AppICBF\AppICBF.csproj", "{EFBE4256-2AF6-4ADE-BC27-D42C97607C2D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EFBE4256-2AF6-4ADE-BC27-D42C97607C2D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EFBE4256-2AF6-4ADE-BC27-D42C97607C2D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EFBE4256-2AF6-4ADE-BC27-D42C97607C2D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EFBE4256-2AF6-4ADE-BC27-D42C97607C2D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3F7C0FCA-1B55-41EE-A639-B9B4B04053E2}
+	EndGlobalSection
+EndGlobal

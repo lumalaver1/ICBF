@@ -1,0 +1,14 @@
+﻿@page
+@model AppICBF.Pages.Acudiente.EliminarAcudienteModel
+@{
+    ViewData["Title"] = "Eliminar Acudiente";
+}
+<h2>Eliminar Acudiente</h2>
+
+<p>¿Estás seguro que deseas eliminar este acudiente?</p>
+
+<form method="post">
+    <input type="hidden" asp-for="Cedula" />
+    <button type="submit" class="btn btn-danger">Eliminar</button>
+    <a asp-page="/Acudiente/IndexAcudiente" class="btn btn-secondary">Cancelar</a>
+</form>

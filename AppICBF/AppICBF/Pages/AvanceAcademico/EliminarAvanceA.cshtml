@@ -1,0 +1,15 @@
+﻿@page
+@model AppICBF.Pages.AvanceAcademico.EliminarAvanceAModel
+@{
+    ViewData["Title"] = "Eliminar Avance A";
+}
+
+<h2>Eliminar Avance Academico</h2>
+
+<p>¿Estás seguro que deseas eliminar este avance a?</p>
+
+<form method="post">
+    <input type="hidden" asp-for="Identificacion_Nino" />
+    <button type="submit" class="btn btn-danger">Eliminar</button>
+    <a asp-page="/Jardin/Index" class="btn btn-secondary">Cancelar</a>
+</form>

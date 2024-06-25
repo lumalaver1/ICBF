@@ -1,0 +1,30 @@
+﻿@page
+@model AppICBF.Pages.Roles.CrearRolesModel
+@{
+}
+
+<br />
+<h2>Agregar Nuevo Rol</h2>
+
+@if (!string.IsNullOrEmpty(Model.errorMessage))
+{
+    <div class="alert alert-danger" role="alert">
+        @Model.errorMessage
+    </div>
+}
+
+@if (!string.IsNullOrEmpty(Model.successMessage))
+{
+    <div class="alert alert-success" role="alert">
+        @Model.successMessage
+    </div>
+}
+
+<form method="post">
+    <div class="form-group">
+        <label for="nombreRol">Nombre Rol</label>
+        <input type="text" class="form-control" id="nombreRol" name="nombreRol" value="@Model.rolInfo.Nombre_Rol">
+    </div>
+    <button type="submit" class="btn btn-primary">Agregar Rol</button>
+    <a class="btn btn-secondary" href="/Roles/Index">Volver</a>
+</form>

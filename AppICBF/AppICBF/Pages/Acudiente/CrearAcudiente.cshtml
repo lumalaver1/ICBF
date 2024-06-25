@@ -1,0 +1,63 @@
+﻿@page
+@model AppICBF.Pages.Acudiente.CrearAcudienteModel
+@{
+    ViewData["Title"] = "Crear Acudiente";
+}
+<br />
+<h2>Agregar Nuevo Acudiente</h2>
+
+@if (!string.IsNullOrEmpty(Model.errorMessage))
+{
+    <div class="alert alert-warning alert-dismissible fade show" role="alert">
+        <strong>@Model.errorMessage</strong>
+        <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="close"></button>
+    </div>
+}
+
+<form method="post">
+    <div class="container">
+        <div class="row mb-3 justify-content-center">
+            <div class="col-sm-10">
+                <label class="col-form-label" for="Nombre">Nombre Acudiente</label>
+                <input type="text" class="form-control" id="Nombre" name="Nombre" value="@Model.acudienteInfo.Nombre" />
+            </div>
+        </div>
+
+        <div class="row mb-3 justify-content-center">
+            <div class="col-sm-10">
+                <label class="col-form-label" for="Telefono">Telefono</label>
+                <input type="text" class="form-control" id="Telefono" name="Telefono" value="@Model.acudienteInfo.Telefono">
+            </div>
+        </div>
+
+        <div class="row mb-3 justify-content-center">
+            <div class="col-sm-10">
+                <label class="col-form-label" for="Celular">Celular</label>
+                <input type="text" class="form-control" id="Celular" name="Celular" value="@Model.acudienteInfo.Celular">
+            </div>
+        </div>
+
+        <div class="row mb-3 justify-content-center">
+            <div class="col-sm-10">
+                <label class="col-form-label" for="Direccion">Direccion</label>
+                <input type="text" class="form-control" id="Direccion" name="Direccion" value="@Model.acudienteInfo.Direccion">
+            </div>
+        </div>
+
+        <div class="row mb-3 justify-content-center">
+            <div class="col-sm-10">
+                <label class="col-form-label" for="Correo">Correo</label>
+                <input type="text" class="form-control" id="Correo" name="Correo" value="@Model.acudienteInfo.Correo">
+            </div>
+        </div>
+
+
+
+        <div class="row mb-3 justify-content-center">
+            <div class="col-sm-10">
+                <button type="submit" class="btn btn-primary">Agregar Acudiente</button>
+                <a class="btn btn-secondary" asp-page="/Acudiente/IndexAcudiente">Volver</a>
+            </div>
+        </div>
+    </div>
+</form>

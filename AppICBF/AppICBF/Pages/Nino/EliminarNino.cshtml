@@ -1,0 +1,14 @@
+﻿@page
+@model AppICBF.Pages.Nino.EliminarNinoModel
+@{
+    ViewData["Title"] = "Eliminar Niño";
+}
+<h2>Eliminar Niño</h2>
+
+<p>¿Estás seguro que deseas eliminar este niño?</p>
+
+<form method="post">
+    <input type="hidden" asp-for="Registro_NIUP" />
+    <button type="submit" class="btn btn-danger">Eliminar</button>
+    <a asp-page="/Jardin/Index" class="btn btn-secondary">Cancelar</a>
+</form>

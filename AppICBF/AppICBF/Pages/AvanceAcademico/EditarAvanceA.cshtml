@@ -1,0 +1,59 @@
+﻿@page
+@model AppICBF.Pages.AvanceAcademico.EditarAvanceAModel
+@{
+    ViewData["Title"] = "Editar Avance A";
+}
+
+<h2>Editar Jardín</h2>
+
+<form method="POST">
+    <input type="hidden" class="form-control" name="Identificacion_Nino" value="@Model.AvanceAInfo.Identificacion_Nino" />
+    <div class="container">
+        <div class="row mb-3 justify-content-center">
+            <div class="col-sm-10">
+                <label class="col-form-label" for="Ano_Escolar">Año Escolar</label>
+                <input type="text" class="form-control" id="Ano_Escolar" name="Ano_Escolar" value="@Model.JardinInfo.Ano_Escolar">
+            </div>
+        </div>
+
+        <div class="row mb-3 justify-content-center">
+            <div class="col-sm-10">
+                <label class="col-form-label" for="Nivel">Nivel</label>
+                <input type="text" class="form-control" id="Nivel" name="Nivel" value="@Model.JardinInfo.Nivel">
+            </div>
+        </div>
+
+        <div class="row mb-3 justify-content-center">
+            <div class="col-sm-10">
+                <label class="col-form-label" for="Notas">Notas</label>
+                <input type="text" class="form-control" id="Notas" name="Notas" value="@Model.JardinInfo.Notas">
+            </div>
+        </div>
+
+
+        <div class="row mb-3 justify-content-center">
+            <div class="col-sm-10">
+                <label class="col-form-label" for="Descripcion">Descripcion</label>
+                <input type="text" class="form-control" id="Descripcion" name="Descripcion" value="@Model.JardinInfo.Descripcion">
+            </div>
+        </div>
+
+        <div class="row mb-3 justify-content-center">
+            <div class="col-sm-10">
+                <label class="col-form-label" for="Fecha_Entrega_Nota">Fecha_Entrega_Nota</label>
+                <input type="text" class="form-control" id="Fecha_Entrega_Nota" name="Fecha_Entrega_Nota" value="@Model.JardinInfo.Fecha_Entrega_Nota">
+            </div>
+        </div>
+
+        <div class="row mb-3">
+            <div class="offset-sm-3 col-sm-3 d-grid">
+                <button type="submit" class="btn btn-primary">Editar</button>
+            </div>
+            <div class="col-sm-3 d-grid">
+                <a class="btn btn-outline-danger" href="/Jardin/Index" role="button">Cancelar</a>
+            </div>
+        </div>
+    </div>
+</form>
+
+

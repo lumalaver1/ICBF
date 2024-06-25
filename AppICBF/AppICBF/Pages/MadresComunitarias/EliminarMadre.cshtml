@@ -1,0 +1,14 @@
+﻿@page
+@model AppICBF.Pages.MadresComunitarias.EliminarMadreModel
+@{
+}
+<h2>Eliminar Madre C</h2>
+
+<p>¿Estás seguro que deseas eliminar esta madre c?</p>
+
+<form method="post">
+    <input type="hidden" asp-for="Identificacion_Madre_Comunitaria" />
+    <button type="submit" class="btn btn-danger">Eliminar</button>
+    <a asp-page="/MadresComunitarias/Index" class="btn btn-secondary">Cancelar</a>
+</form>
+

@@ -1,0 +1,67 @@
+﻿@page
+@model ICBFapp.Pages.Jardin.EditarJardinModel
+@{
+    ViewData["Title"] = "Editar Jardín";
+}
+<h2>Editar Jardín</h2>
+
+@if (Model.errorMessage.Length > 0)
+
+{
+    <div class="alert alert-warning alert-dismissible fade show" role="alert">
+        <strong>@Model.errorMessage</strong>
+        <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="close"></button>
+    </div>
+}
+
+<form method="post">
+    <input type="hidden" class="form-control" name="Identificador_Jardin" value="@Model.jardinInfo.Identificador_Jardin" />
+    <div class="row mb-3">
+        <label class="col-form-label-sm col-form-labe"l>Nombre Jardín</label>
+    <div class="col-sm-6">
+        <input type="text" class="form-control" id="Nombre_Jardin" name="NombreJardin" value="@Model.jardinInfo.Nombre_Jardin" />
+    </div>
+    </div>
+
+    <div class="row mb-3">
+        <label class="col-form-label-sm col-form-label">Dirección Jardín</label>
+        <div class="col-sm-6">
+        <input type="text" class="form-control" id="Direccion" name="Direccion" value="@Model.jardinInfo.Direccion" />
+    </div>
+    </div>
+
+    <div class="row mb-3">
+        <label class="col-form-label-sm col-form-label" for="SelectedJardinId">Selecciona un jardin</label>
+        <div class="col-sm-6">
+            <select name="Estado" value="@Model.jardinInfo.Estado" class="form-control">
+            <option value="">Selecciona un estado</option>
+            <option value="En tramite">En tramite</option>
+            <option value="Aprobado">Aprobado</option>
+            <option value="Negado">Negado</option>
+
+            </select>
+            </div>
+            </div>
+
+            @if (Model.sucessMessage.Length > 0)
+            {
+                <div class="row mb-3">
+                <div class="col-sm-9">
+                <div class="alert alert-sucess alert-dimissible fade show" role="alert">
+                <strong>@Model.sucessMessage</strong>
+                <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="close"></button>
+                    </div>
+                    </div>
+        </div>
+            }
+       <div class="row mb-3">
+           <div class="offset-sm-3 col-sm-3 d-grid">
+            <button type ="submit" class="btn btn-primary">Editar</button>
+           </div>
+           <div class="col-sm-3 col-sm-3 d-grid">
+            <a class="btn btn-outline-primary" href="/Jardin/Index" role"button">Cancelar</a>
+
+           </div>
+
+       </div>
+   </form>

@@ -1,0 +1,33 @@
+﻿@page
+@model AppICBF.Pages.Usuarios.IndexUsuarioModel
+@{
+}
+<br />
+<h2>Lista de Usuarios</h2>
+<a class="btn btn-primary btn-sm" href="/Usuarios/CrearUsuario">Nuevo Usuario</a>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>ID</th>
+            <th>Nombre Usuario</th>
+            <th>Correo</th>
+            <th>Rol</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var usuario in Model.ListaUsuarios)
+        {
+            <tr>
+                <td>@usuario.Usuario_ID</td>
+                <td>@usuario.Nombre_Usuario</td>
+                <td>@usuario.Correo</td>
+                <td>@usuario.Rol_ID</td>
+                <td>
+                    <a class="btn btn-primary btn-sm" href="/Usuarios/EditarUsuario?id=@usuario.Usuario_ID">Editar</a>
+                    <a class="btn btn-danger btn-sm" href="/Usuarios/EliminarUsuario?id=@usuario.Usuario_ID">Eliminar</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

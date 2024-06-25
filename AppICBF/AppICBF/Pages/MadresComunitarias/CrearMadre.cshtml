@@ -1,0 +1,43 @@
+﻿@page
+@model AppICBF.Pages.MadresComunitarias.CrearMadreModel
+@{
+}
+<br />
+<h2>Agregar Nueva Madre Comunitaria</h2>
+
+@if (!string.IsNullOrEmpty(Model.errorMessage))
+{
+    <div class="alert alert-danger" role="alert">
+        @Model.errorMessage
+    </div>
+}
+
+@if (!string.IsNullOrEmpty(Model.successMessage))
+{
+    <div class="alert alert-success" role="alert">
+        @Model.successMessage
+    </div>
+}
+
+<form method="post">
+    <div class="form-group">
+        <label for="nombre">Nombre</label>
+        <input type="text" class="form-control" id="nombre" name="nombre" value="@Model.MadreComunitariaInfo.Nombres">
+    </div>
+    <div class="form-group">
+        <label for="telefono">Teléfono</label>
+        <input type="text" class="form-control" id="telefono" name="telefono" value="@Model.MadresComunitariasInfo.Telefono">
+    </div>
+    <div class="form-group">
+        <label for="direccion">Dirección</label>
+        <input type="text" class="form-control" id="direccion" name="direccion" value="@Model.MadresComunitariasInfo.Direccion_Residencia">
+    </div>
+    <div class="form-group">
+        <label for="fechaNacimiento">Fecha de Nacimiento</label>
+        <input type="date" class="form-control" id="fechaNacimiento" name="fechaNacimiento" value="@Model.MadresComunitariasInfo.Fecha_Nacimiento">
+    </div>
+
+    <button type="submit" class="btn btn-primary">Agregar Madre Comunitaria</button>
+
+    <a class="btn btn-secondary" href="/MadresComunitarias/Index">Volver</a>
+</form>

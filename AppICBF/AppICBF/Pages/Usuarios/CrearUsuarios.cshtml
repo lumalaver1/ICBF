@@ -1,0 +1,43 @@
+﻿@page
+@model AppICBF.Pages.Usuarios.CrearUsuariosModel
+@{
+}
+
+<br />
+<h2>Agregar Nuevo Usuario</h2>
+
+@if (!string.IsNullOrEmpty(Model.errorMessage))
+{
+    <div class="alert alert-danger" role="alert">
+        @Model.errorMessage
+    </div>
+}
+
+@if (!string.IsNullOrEmpty(Model.successMessage))
+{
+    <div class="alert alert-success" role="alert">
+        @Model.successMessage
+    </div>
+}
+
+<form method="post">
+    <div class="form-group">
+        <label for="nombreUsuario">Nombre de Usuario</label>
+        <input type="text" class="form-control" id="nombreUsuario" name="nombreUsuario" value="@Model.usuarioInfo.Nombre_Usuario">
+    </div>
+    <div class="form-group">
+        <label for="correo">Correo</label>
+        <input type="email" class="form-control" id="correo" name="correo" value="@Model.usuarioInfo.Correo">
+    </div>
+    <div class="form-group">
+        <label for="rol">Rol</label>
+        <select class="form-control" id="rol" name="rol">
+            @foreach (var rol in Model.listRoles)
+            {
+                <option value="@rol.Rol_ID">@rol.Nombre_Rol</option>
+            }
+        </select>
+    </div>
+    <button type="submit" class="btn btn-primary">Agregar Usuario</button>
+    <a class="btn btn-secondary" href="/Usuarios/IndexUsuario">Volver</a>
+</form>

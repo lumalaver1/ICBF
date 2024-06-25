@@ -1,0 +1,48 @@
+﻿@page
+@model AppICBF.Pages.Nino.IndexNinosModel
+@{
+    ViewData["Title"] = "Lista de Niños";
+}
+
+<br />
+<h2>Lista de Niños</h2>
+<a class="btn btn-primary btn-sm" href="/Nino/CrearNino">Nuevo Niño</a>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Registro NIUP</th>
+            <th>Nombre</th>
+            <th>Fecha de Nacimiento</th>
+            <th>Tipo de Sangre</th>
+            <th>Ciudad de Nacimiento</th>
+            <th>Identificación Acudiente</th>
+            <th>Teléfono</th>
+            <th>Dirección</th>
+            <th>EPS</th>
+            <th>Nombre Jardín</th>
+            <th>Acciones</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var nino in Model.ListaNinos)
+        {
+            <tr>
+                <td>@nino.Registro_NIUP</td>
+                <td>@nino.Nombre</td>
+                <td>@nino.Fecha_Nacimiento.ToShortDateString()</td>
+                <td>@nino.Tipo_Sangre</td>
+                <td>@nino.Ciudad_Nacimiento</td>
+                <td>@nino.Identificacion_Acudiente</td>
+                <td>@nino.Telefono</td>
+                <td>@nino.Direccion</td>
+                <td>@nino.EPS</td>
+                <td>@nino.Nombre_Jardin</td>
+                <td>
+                    <a class="btn btn-primary btn-sm" asp-page="/Nino/EditarNino" asp-route-Registro_NIUP="@nino.Registro_NIUP">Editar</a>
+                    <a class="btn btn-danger btn-sm" asp-page="/Nino/EliminarNino" asp-route-Registro_NIUP="@nino.Registro_NIUP">Eliminar</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

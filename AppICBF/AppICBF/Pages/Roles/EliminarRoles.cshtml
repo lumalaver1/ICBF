@@ -1,0 +1,14 @@
+﻿@page
+@model AppICBF.Pages.Roles.EliminarRolesModel
+@{
+    ViewData["Title"] = "Eliminar Rol";
+}
+<h2>Eliminar Rol</h2>
+
+<p>¿Estás seguro que deseas eliminar este rol?</p>
+
+<form method="post">
+    <input type="hidden" asp-for="Rol_ID" />
+    <button type="submit" class="btn btn-danger">Eliminar</button>
+    <a asp-page="/Roles/IndexRoles" class="btn btn-secondary">Cancelar</a>
+</form>

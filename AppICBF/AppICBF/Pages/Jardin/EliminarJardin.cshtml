@@ -1,0 +1,15 @@
+﻿@page
+@model AppICBF.Pages.Jardin.EliminarJardinModel
+@{
+    ViewData["Title"] = "Eliminar Jardín";
+}
+
+<h2>Eliminar Jardín</h2>
+
+<p>¿Estás seguro que deseas eliminar este jardín?</p>
+
+<form method="post">
+    <input type="hidden" asp-for="Identificador_Jardin" />
+    <button type="submit" class="btn btn-danger">Eliminar</button>
+    <a asp-page="/Jardin/Index" class="btn btn-secondary">Cancelar</a>
+</form>

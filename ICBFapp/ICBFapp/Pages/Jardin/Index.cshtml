@@ -1,0 +1,44 @@
+﻿@page
+@model ICBFapp.Pages.Jardin.IndexModel
+@{
+    ViewData["Title"] = "Lista de Jardínes";
+}
+<br />
+<h2>Lista de Jardínes</h2>
+<a class="btn btn-primary btn-sm" asp-page="/Jardin/CrearJardin">Agregar Jardín</a>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Identificador</th>
+            <th>Nombre</th>
+            <th>Dirección</th>
+            <th>Estado</th>
+            <th>Acciones</th>
+        </tr>
+    </thead>
+    <tbody>
+        @if (Model.listJardin != null && Model.listJardin.Any())
+        {
+            @foreach (var item in Model.listJardin)
+            {
+                <tr>
+                    <td>@item.Identificador_Jardin</td>
+                    <td>@item.Nombre_Jardin</td>
+                    <td>@item.Direccion</td>
+                    <td>@item.Estado</td>
+                    <td>
+                        <a class="btn btn-primary btn-sm" href="/Jardin/EditarJardin?id=@item.Identificador_Jardin">Editar</a>
+                        <a class="btn btn-danger btn-sm" href="/Jardin/EliminarJardin?id=@item.Identificador_Jardin">Eliminar</a>
+                    </td>
+                </tr>
+            }
+        }
+        else
+        {
+            <tr>
+                <td colspan="5">No hay jardines disponibles</td>
+            </tr>
+        }
+    </tbody>
+</table>

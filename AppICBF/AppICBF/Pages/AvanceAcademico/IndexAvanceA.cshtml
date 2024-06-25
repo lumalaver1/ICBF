@@ -1,0 +1,40 @@
+﻿@page
+@model AppICBF.Pages.AvanceAcademico.IndexAvanceAModel
+@{
+    ViewData["Title"] = "Lista Avance Academico";
+}
+
+<br />
+<h2>Lista de Avance Academico</h2>
+<a class="btn btn-primary btn-sm" href="/AvanceAcademico/CrearAvanceA">Nuevo Avance Academico</a>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Identificacion_Nino</th>
+            <th>Ano_Escolar</th>
+            <th>Nivel</th>
+            <th>Notas</th>
+            <th>Descripcion</th>
+            <th>Fecha_Entrega_Nota</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var AvanceA in Model.listAvanceA)
+        {
+            <tr>
+                <td>@AvanceA.Identificacion_Nino</td>
+                <td>@AvanceA.Ano_Escolar</td>
+                <td>@AvanceA.Nivel</td>
+                <td>@AvanceA.Notas</td>
+                <td>@AvanceA.Descripcion</td>
+                <td>@AvanceA.Fecha_Entrega_Nota</td>
+             
+                <td>
+                    <a class="btn btn-primary btn-sm" asp-page="/AvanceAcademico/EditarAvanceA" asp-route-Registro_NIUP="@AvanceA.Identificacion_Nino">Editar</a>
+                    <a class="btn btn-danger btn-sm" asp-page="/AvanceAcademico/EliminarAvanceA" asp-route-Registro_NIUP="@AvanceA.Identificacion_Nino">Eliminar</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

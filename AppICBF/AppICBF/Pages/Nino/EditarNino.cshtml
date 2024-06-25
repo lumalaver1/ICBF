@@ -1,0 +1,65 @@
+﻿@page
+@model AppICBF.Pages.Nino.EditarNinoModel
+@{
+   
+}
+<h2>@ViewData["Title"]</h2>
+
+@if (!string.IsNullOrEmpty(Model.ErrorMessage))
+{
+    <div class="alert alert-danger">
+        @Model.ErrorMessage
+    </div>
+}
+
+@if (!string.IsNullOrEmpty(Model.SuccessMessage))
+{
+    <div class="alert alert-success">
+        @Model.SuccessMessage
+    </div>
+}
+
+<form method="post">
+    <input type="hidden" asp-for="Nino.Registro_NIUP" />
+
+    <div class="form-group">
+        <label asp-for="Nino.Nombre"></label>
+        <input asp-for="Nino.Nombre" class="form-control" />
+    </div>
+    <div class="form-group">
+        <label asp-for="Nino.Fecha_Nacimiento">Fecha de Nacimiento</label>
+        <input asp-for="Nino.Fecha_Nacimiento" class="form-control" />
+    </div>
+    <div class="form-group">
+        <label asp-for="Nino.Tipo_Sangre">Tipo de Sangre</label>
+        <input asp-for="Nino.Tipo_Sangre" class="form-control" />
+    </div>
+    <div class="form-group">
+        <label asp-for="Nino.Ciudad_Nacimiento">Ciudad de Nacimiento</label>
+        <input asp-for="Nino.Ciudad_Nacimiento" class="form-control" />
+    </div>
+    <div class="form-group">
+        <label asp-for="Nino.Identificacion_Acudiente">Identificación Acudiente</label>
+        <input asp-for="Nino.Identificacion_Acudiente" class="form-control" />
+    </div>
+    <div class="form-group">
+        <label asp-for="Nino.Telefono">Teléfono</label>
+        <input asp-for="Nino.Telefono" class="form-control" />
+    </div>
+    <div class="form-group">
+        <label asp-for="Nino.Direccion">Dirección</label>
+        <input asp-for="Nino.Direccion" class="form-control" />
+    </div>
+    <div class="form-group">
+        <label asp-for="Nino.EPS">EPS</label>
+        <input asp-for="Nino.EPS" class="form-control" />
+    </div>
+    <div class="form-group">
+        <label asp-for="Nino.Identificador_Jardin">Identificador Jardín</label>
+        <input asp-for="Nino.Identificador_Jardin" class="form-control" />
+    </div>
+
+    <button type="submit" class="btn btn-primary">Guardar Cambios</button>
+    <a asp-page="/Nino/IndexNinos" class="btn btn-secondary">Cancelar</a>
+</form>
+

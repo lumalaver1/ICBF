@@ -1,0 +1,175 @@
+is_global = true
+build_property.TargetFramework = net8.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = AppICBF
+build_property.RootNamespace = AppICBF
+build_property.ProjectDir = C:\Users\lumal\OneDrive\Escritorio\AppICBF\AppICBF\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.RazorLangVersion = 8.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\lumal\OneDrive\Escritorio\AppICBF\AppICBF
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/lumal/OneDrive/Escritorio/AppICBF/AppICBF/Pages/Acudiente/CrearAcudiente.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWN1ZGllbnRlXENyZWFyQWN1ZGllbnRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/lumal/OneDrive/Escritorio/AppICBF/AppICBF/Pages/Acudiente/EditarAcudiente.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWN1ZGllbnRlXEVkaXRhckFjdWRpZW50ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/lumal/OneDrive/Escritorio/AppICBF/AppICBF/Pages/Acudiente/EliminarAcudiente.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWN1ZGllbnRlXEVsaW1pbmFyQWN1ZGllbnRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/lumal/OneDrive/Escritorio/AppICBF/AppICBF/Pages/Acudiente/IndexAcudiente.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWN1ZGllbnRlXEluZGV4QWN1ZGllbnRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/lumal/OneDrive/Escritorio/AppICBF/AppICBF/Pages/Asistencia/CrearAsistencia.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQXNpc3RlbmNpYVxDcmVhckFzaXN0ZW5jaWEuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/lumal/OneDrive/Escritorio/AppICBF/AppICBF/Pages/Asistencia/EditarAsistencia.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQXNpc3RlbmNpYVxFZGl0YXJBc2lzdGVuY2lhLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/lumal/OneDrive/Escritorio/AppICBF/AppICBF/Pages/Asistencia/Eliminar.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQXNpc3RlbmNpYVxFbGltaW5hci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/lumal/OneDrive/Escritorio/AppICBF/AppICBF/Pages/Asistencia/IndexAsistencia.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQXNpc3RlbmNpYVxJbmRleEFzaXN0ZW5jaWEuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/lumal/OneDrive/Escritorio/AppICBF/AppICBF/Pages/AvanceAcademico/CrearAvanceA.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQXZhbmNlQWNhZGVtaWNvXENyZWFyQXZhbmNlQS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/lumal/OneDrive/Escritorio/AppICBF/AppICBF/Pages/AvanceAcademico/EditarAvanceA.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQXZhbmNlQWNhZGVtaWNvXEVkaXRhckF2YW5jZUEuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/lumal/OneDrive/Escritorio/AppICBF/AppICBF/Pages/AvanceAcademico/EliminarAvanceA.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQXZhbmNlQWNhZGVtaWNvXEVsaW1pbmFyQXZhbmNlQS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/lumal/OneDrive/Escritorio/AppICBF/AppICBF/Pages/AvanceAcademico/IndexAvanceA.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQXZhbmNlQWNhZGVtaWNvXEluZGV4QXZhbmNlQS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/lumal/OneDrive/Escritorio/AppICBF/AppICBF/Pages/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/lumal/OneDrive/Escritorio/AppICBF/AppICBF/Pages/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/lumal/OneDrive/Escritorio/AppICBF/AppICBF/Pages/Jardin/CrearJardin.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSmFyZGluXENyZWFySmFyZGluLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/lumal/OneDrive/Escritorio/AppICBF/AppICBF/Pages/Jardin/EditarJardin.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSmFyZGluXEVkaXRhckphcmRpbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/lumal/OneDrive/Escritorio/AppICBF/AppICBF/Pages/Jardin/EliminarJardin.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSmFyZGluXEVsaW1pbmFySmFyZGluLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/lumal/OneDrive/Escritorio/AppICBF/AppICBF/Pages/Jardin/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSmFyZGluXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/lumal/OneDrive/Escritorio/AppICBF/AppICBF/Pages/MadresComunitarias/CrearMadre.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTWFkcmVzQ29tdW5pdGFyaWFzXENyZWFyTWFkcmUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/lumal/OneDrive/Escritorio/AppICBF/AppICBF/Pages/MadresComunitarias/Editar.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTWFkcmVzQ29tdW5pdGFyaWFzXEVkaXRhci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/lumal/OneDrive/Escritorio/AppICBF/AppICBF/Pages/MadresComunitarias/EliminarMadre.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTWFkcmVzQ29tdW5pdGFyaWFzXEVsaW1pbmFyTWFkcmUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/lumal/OneDrive/Escritorio/AppICBF/AppICBF/Pages/MadresComunitarias/IndexMadre.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTWFkcmVzQ29tdW5pdGFyaWFzXEluZGV4TWFkcmUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/lumal/OneDrive/Escritorio/AppICBF/AppICBF/Pages/Nino/CrearNino.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTmlub1xDcmVhck5pbm8uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/lumal/OneDrive/Escritorio/AppICBF/AppICBF/Pages/Nino/EditarNino.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTmlub1xFZGl0YXJOaW5vLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/lumal/OneDrive/Escritorio/AppICBF/AppICBF/Pages/Nino/EliminarNino.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTmlub1xFbGltaW5hck5pbm8uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/lumal/OneDrive/Escritorio/AppICBF/AppICBF/Pages/Nino/IndexNinos.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTmlub1xJbmRleE5pbm9zLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/lumal/OneDrive/Escritorio/AppICBF/AppICBF/Pages/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJpdmFjeS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/lumal/OneDrive/Escritorio/AppICBF/AppICBF/Pages/Roles/CrearRoles.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUm9sZXNcQ3JlYXJSb2xlcy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/lumal/OneDrive/Escritorio/AppICBF/AppICBF/Pages/Roles/EditarRoles.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUm9sZXNcRWRpdGFyUm9sZXMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/lumal/OneDrive/Escritorio/AppICBF/AppICBF/Pages/Roles/EliminarRoles.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUm9sZXNcRWxpbWluYXJSb2xlcy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/lumal/OneDrive/Escritorio/AppICBF/AppICBF/Pages/Roles/IndexRoles.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUm9sZXNcSW5kZXhSb2xlcy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/lumal/OneDrive/Escritorio/AppICBF/AppICBF/Pages/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/lumal/OneDrive/Escritorio/AppICBF/AppICBF/Pages/Usuarios/CrearUsuarios.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVXN1YXJpb3NcQ3JlYXJVc3Vhcmlvcy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/lumal/OneDrive/Escritorio/AppICBF/AppICBF/Pages/Usuarios/EditarUsuarios.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVXN1YXJpb3NcRWRpdGFyVXN1YXJpb3MuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/lumal/OneDrive/Escritorio/AppICBF/AppICBF/Pages/Usuarios/EliminarUsuarios.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVXN1YXJpb3NcRWxpbWluYXJVc3Vhcmlvcy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/lumal/OneDrive/Escritorio/AppICBF/AppICBF/Pages/Usuarios/IndexUsuarios.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVXN1YXJpb3NcSW5kZXhVc3Vhcmlvcy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/lumal/OneDrive/Escritorio/AppICBF/AppICBF/Pages/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/lumal/OneDrive/Escritorio/AppICBF/AppICBF/Pages/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/lumal/OneDrive/Escritorio/AppICBF/AppICBF/Pages/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-spkrdhb4ir

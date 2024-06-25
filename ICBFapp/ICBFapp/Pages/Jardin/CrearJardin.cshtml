@@ -1,0 +1,42 @@
+﻿@page
+@model ICBFapp.Pages.Jardin.CrearJardinModel
+@{
+    ViewData["Title"] = "Agregar Nuevo Jardín";
+}
+<br />
+<h2>Agregar Nuevo Jardín</h2>
+
+@if (!string.IsNullOrEmpty(Model.errorMessage))
+{
+    <div class="alert alert-warning alert-dismissible fade show" role="alert">
+        <strong>@Model.errorMessage</strong>
+        <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="close"></button>
+    </div>
+}
+
+<form method="post">
+    <div class="container">
+        <div class="row mb-3 justify-content-center">
+            <div class="col-sm-10">
+                <label class="col-form-label" for="Nombre_Jardin">Nombre Jardín</label>
+                <input type="text" class="form-control" id="Nombre_Jardin" name="Nombre_Jardin" value="@Model.jardinInfo.Nombre_Jardin" />
+            </div>
+        </div>
+
+        <div class="row mb-3 justify-content-center">
+            <div class="col-sm-10">
+                <label class="col-form-label" for="Direccion">Dirección Jardín</label>
+                <input type="text" class="form-control" id="Direccion" name="Direccion" value="@Model.jardinInfo.Direccion">
+            </div>
+        </div>
+
+     
+
+        <div class="row mb-3 justify-content-center">
+            <div class="col-sm-10">
+                <button type="submit" class="btn btn-primary">Agregar Jardín</button>
+                <a class="btn btn-secondary" asp-page="/Jardin/Index">Volver</a>
+            </div>
+        </div>
+    </div>
+</form>
